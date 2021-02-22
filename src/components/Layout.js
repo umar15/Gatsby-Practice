@@ -8,6 +8,7 @@ export default ({ children }) => {
 			<div className={styles.navbar}>
 				<Link to="/">Home</Link>
 				<Link to="/about/">About</Link>
+				<Link to="/product/">Products</Link>
 			</div>
 			{children}
 			<div className={styles.footer}>Copyrights 2020</div>
